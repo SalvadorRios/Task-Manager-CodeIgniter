@@ -1,0 +1,143 @@
+CRITICAL - 2024-01-01 20:52:00 --> Error: Undefined constant "App\Models\REQUIRED"
+in APPPATH\Controllers\TaskController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TaskController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-01 20:55:27 --> Error: Undefined constant "App\Models\REQUIRED"
+in APPPATH\Controllers\TaskController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TaskController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-01 21:01:10 --> Error: Undefined constant "App\Models\REQUIRED"
+in APPPATH\Controllers\TaskController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TaskController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-01 21:25:07 --> Error: Undefined constant "App\Models\REQUIRED"
+in APPPATH\Controllers\TaskController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TaskController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter\\public\\index.php')
+CRITICAL - 2024-01-01 21:26:14 --> Error: Undefined constant "App\Models\REQUIRED"
+in APPPATH\Controllers\TaskController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TaskController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter\\public\\index.php')
+CRITICAL - 2024-01-01 21:28:05 --> ErrorException: Undefined variable $outes
+in APPPATH\Config\Routes.php on line 16.
+ 1 APPPATH\Config\Routes.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $outes', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Config\\Routes.php', 16)
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\xampp\\htdocs\\Codeigniter\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter\\public\\index.php')
+CRITICAL - 2024-01-01 21:29:13 --> ErrorException: Undefined variable $outes
+in APPPATH\Config\Routes.php on line 16.
+ 1 APPPATH\Config\Routes.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $outes', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Config\\Routes.php', 16)
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\xampp\\htdocs\\Codeigniter\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter\\public\\index.php')
+CRITICAL - 2024-01-01 21:31:55 --> ErrorException: Undefined variable $outes
+in APPPATH\Config\Routes.php on line 16.
+ 1 APPPATH\Config\Routes.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $outes', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Config\\Routes.php', 16)
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\xampp\\htdocs\\Codeigniter\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CLI\Console.php(39): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2024-01-01 23:01:49 --> Error: Undefined constant "App\Models\REQUIRED"
+in APPPATH\Controllers\TaskController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TaskController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter\\public\\index.php')
+CRITICAL - 2024-01-01 23:24:37 --> BadMethodCallException: Call to undefined method App\Models\TaskModel::getTaks
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\TaskController.php(17): CodeIgniter\Model->__call('getTaks', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTaks()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter\\public\\index.php')
+CRITICAL - 2024-01-01 23:26:10 --> ErrorException: Array to string conversion
+in APPPATH\Views\task_list.php on line 11.
+ 1 APPPATH\Views\task_list.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\task_list.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\task_list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('task_list', [], true)
+ 5 APPPATH\Controllers\TaskController.php(18): view('task_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTaks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter\\public\\index.php')
+CRITICAL - 2024-01-01 23:26:39 --> ErrorException: Array to string conversion
+in APPPATH\Views\task_list.php on line 11.
+ 1 APPPATH\Views\task_list.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\task_list.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\task_list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('task_list', [], true)
+ 5 APPPATH\Controllers\TaskController.php(18): view('task_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTaks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter\\public\\index.php')
+CRITICAL - 2024-01-01 23:27:41 --> ErrorException: Array to string conversion
+in APPPATH\Views\task_list.php on line 11.
+ 1 APPPATH\Views\task_list.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\task_list.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\task_list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('task_list', [], true)
+ 5 APPPATH\Controllers\TaskController.php(19): view('task_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTaks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter\\public\\index.php')
+CRITICAL - 2024-01-01 23:28:42 --> ErrorException: Array to string conversion
+in APPPATH\Views\task_list.php on line 13.
+ 1 APPPATH\Views\task_list.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\task_list.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\task_list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('task_list', [], true)
+ 5 APPPATH\Controllers\TaskController.php(19): view('task_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTaks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter\\public\\index.php')
+CRITICAL - 2024-01-01 23:29:18 --> ErrorException: Undefined variable $data
+in APPPATH\Views\task_list.php on line 12.
+ 1 APPPATH\Views\task_list.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\task_list.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\task_list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('task_list', [], true)
+ 5 APPPATH\Controllers\TaskController.php(19): view('task_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTaks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter\\public\\index.php')
+CRITICAL - 2024-01-01 23:31:53 --> ErrorException: Undefined variable $data
+in APPPATH\Views\task_list.php on line 11.
+ 1 APPPATH\Views\task_list.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\task_list.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\task_list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('task_list', [], true)
+ 5 APPPATH\Controllers\TaskController.php(19): view('task_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTaks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter\\public\\index.php')

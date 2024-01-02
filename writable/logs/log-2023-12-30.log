@@ -1,0 +1,261 @@
+ERROR - 2023-12-30 00:25:26 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(577): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\Codeigniter\app\Controllers\TaskController.php(46): CodeIgniter\BaseModel->find(NULL)
+#7 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(941): App\Controllers\TaskController->show()
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\Codeigniter\system\Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(577): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\xampp\htdocs\Codeigniter\app\Controllers\TaskController.php(46): CodeIgniter\BaseModel->find(NULL)
+#6 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(941): App\Controllers\TaskController->show()
+#7 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-30 00:25:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tasks`', [], false)
+ 3 SYSTEMPATH\Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(577): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\TaskController.php(46): CodeIgniter\BaseModel->find(null)
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->show()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-30 00:26:10 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(577): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\Codeigniter\app\Controllers\TaskController.php(46): CodeIgniter\BaseModel->find(NULL)
+#7 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(941): App\Controllers\TaskController->show()
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\Codeigniter\system\Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(577): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\xampp\htdocs\Codeigniter\app\Controllers\TaskController.php(46): CodeIgniter\BaseModel->find(NULL)
+#6 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(941): App\Controllers\TaskController->show()
+#7 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-30 00:26:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tasks`', [], false)
+ 3 SYSTEMPATH\Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(577): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\TaskController.php(46): CodeIgniter\BaseModel->find(null)
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->show()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-30 00:26:32 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(577): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\Codeigniter\app\Controllers\TaskController.php(46): CodeIgniter\BaseModel->find(NULL)
+#7 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(941): App\Controllers\TaskController->show()
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\Codeigniter\system\Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(577): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\xampp\htdocs\Codeigniter\app\Controllers\TaskController.php(46): CodeIgniter\BaseModel->find(NULL)
+#6 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(941): App\Controllers\TaskController->show()
+#7 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-30 00:26:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tasks`', [], false)
+ 3 SYSTEMPATH\Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(577): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\TaskController.php(46): CodeIgniter\BaseModel->find(null)
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->show()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-30 00:31:56 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(713): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Codeigniter\app\Controllers\TaskController.php(32): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(941): App\Controllers\TaskController->postTask()
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#11 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#3 C:\xampp\htdocs\Codeigniter\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\Codeigniter\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, false)
+#6 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(713): CodeIgniter\Model->insert(Array, false)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\TaskController.php(32): CodeIgniter\BaseModel->save(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(941): App\Controllers\TaskController->postTask()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-30 00:31:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tasks` (`title`, `description`, `status`) VALUES (:title:, :description:, :status:)', [...], false)
+ 3 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 7 APPPATH\Controllers\TaskController.php(32): CodeIgniter\BaseModel->save([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->postTask()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-30 04:27:04 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(713): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Codeigniter\app\Controllers\TaskController.php(33): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(941): App\Controllers\TaskController->postTask()
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#11 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#3 C:\xampp\htdocs\Codeigniter\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\Codeigniter\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, false)
+#6 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(713): CodeIgniter\Model->insert(Array, false)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\TaskController.php(33): CodeIgniter\BaseModel->save(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(941): App\Controllers\TaskController->postTask()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-30 04:27:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tasks` (`title`, `description`, `status`) VALUES (:title:, :description:, :status:)', [...], false)
+ 3 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 7 APPPATH\Controllers\TaskController.php(33): CodeIgniter\BaseModel->save([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->postTask()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-30 06:22:05 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(713): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Codeigniter\app\Controllers\TaskController.php(40): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(941): App\Controllers\TaskController->postTask()
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#11 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#3 C:\xampp\htdocs\Codeigniter\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\Codeigniter\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, false)
+#6 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(713): CodeIgniter\Model->insert(Array, false)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\TaskController.php(40): CodeIgniter\BaseModel->save(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(941): App\Controllers\TaskController->postTask()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-30 06:22:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tasks` (`title`, `description`, `status`) VALUES (:title:, :description:, :status:)', [...], false)
+ 3 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 7 APPPATH\Controllers\TaskController.php(40): CodeIgniter\BaseModel->save([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->postTask()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
